@@ -3,6 +3,6 @@ title: "About Me"
 ---
 
 
-![](~/Documents/GitHub/kunxu.github.io/images/me.jpg)
+![](~/Documents/GitHub/jingjinghancomm.github.io/images/Jingjing Han_Profile Pic_edited.png)
 
 add my introduction here
