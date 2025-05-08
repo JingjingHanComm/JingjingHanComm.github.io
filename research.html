@@ -1,452 +1,148 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-
-
-
-
-<title>Research Areas</title>
-
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
-
-
-
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
-
-<link rel="stylesheet" href="style.css" type="text/css" />
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-</style>
-
-
-<style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 41px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h2 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h3 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h4 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h5 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h6 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script>
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
-
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Kun Xu website</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">About Me</a>
-</li>
-<li>
-  <a href="research.html">Research</a>
-</li>
-<li>
-  <a href="publications.html">Publications</a>
-</li>
-<li>
-  <a href="PAILab.html">PAI Lab</a>
-</li>
-<li>
-  <a href="teaching.html">Teaching</a>
-</li>
-<li>
-  <a href="media.html">Media</a>
-</li>
-<li>
-  <a href="cv.html">CV</a>
-</li>
-<li>
-  <a href="contact.html">Contact/中文</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="mailto:&lt;kun.xu@ufl.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://scholar.google.com/citations?user=ojzP8I0AAAAJ&amp;hl=en">
-    <span class="fa fa-google fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/bigben219">
-    <span class="fa fa-twitter fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://github.com/xkunnet">
-    <span class="fa fa-github fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://www.linkedin.com/in/kun-xu/">
-    <span class="fa fa-linkedin fa-lg"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div class="fluid-row" id="header">
-
-
-
-<h1 class="title toc-ignore">Research Areas</h1>
-
-</div>
-
-
 <p>   </p>
-<p><font color="green">Latest update: 6/24/2022</font></p>
-<p>I identify myself as an HCI scholar who focuses on the roles of social cues and social presence in individuals’ psychological processing of emerging technologies, including humanoid social robots and virtual/augmented agents. To be more specific, my research investigates how and why various combinations of social cues designed into machines evoke users’ social responses, including their perceptions of machines as social entities (i.e., social presence), their trust in technologies, and their compliance with/conformity to technologies. I am also broadly interested in Science and Technology Studies (STS) and seek to understand the mutual shaping between humans and machines.</p>
-<p>I was honored and lucky to have been advised by two great scholars in the areas of presence and virtual/augmented reality: <a href="https://klein.temple.edu/faculty/matthew-lombard">Dr. Matthew Lombard</a> and <a href="https://www.uhcougarlab.com/aboutus">Dr. Tony Liao</a>.</p>
+<p><font color="green">Latest update: 05/08/2025</font></p>
+<p>My research is rooted in communication science and cognitive science.
+My research focuses on system-level dynamics in cognition, emotion, and
+behavior in human-human and human-media/machine communication, using the
+complex dynamic systems framework and computational and nonlinear
+dynamical analytical tools. The goal of my research program is to employ
+dynamic systems theory and complex systems analyses to accurately model,
+explain, and predict dynamic communication behaviors.</p>
 <p>   </p>
-<p><font color="green"><strong>My research program subsumes three general directions:</strong></font></p>
-<p>[1] Testing and extending the Computers are Social Actors (CASA) paradigm to the Media are Social Actors (MASA) paradigm;</p>
-<p>[2] Testing and developing a framework that integrates human-computer interaction and computer-mediated communication to better understand emerging technologies;</p>
-<p>[3] Using mixed novel methods to deepen our comprehension of individuals’ emerging technology use phenomena;</p>
+<p><font color="green"><strong>My research program involves three
+directions:</strong></font></p>
 <p>   </p>
-<p><font color="green"><strong>[1] Testing and extending the Computers are Social Actors (CASA) paradigm to the Media are Social Actors (MASA) paradigm:</strong></font></p>
+<p><font color="green"><strong>Conceptually: A Complex Dynamic Systems
+Framework to Communication Research</strong></font></p>
 <p><img src="images/masa2.png" /></p>
-<p>Clifford Nass and his colleagues proposed the Computers Are Social Actors (CASA) paradigm in the 1990s and found that humans treat computers in some of the ways we treat humans. However, some questions remain to be explored within this paradigm. Dr. Lombard and I proposed the Media are Social Actors paradigm, in which we listed nine testable propositions for future research to test, expounded the effects of social cues on medium-as-social-actor presence (i.e., a type of perceptual experience that allows users to respond to the cues presented by technologies per se), and described the psychological mechanism behind such responses. The major contributions lie in a) our proposal of a hierarchy of social cues that features different quality of social cues in evoking our natural/intuitive responses, b) our attempts to unify two explanatory mechanisms: mindless processing and mindful processing, and c) our explanations of what it means by “social” in social presence and social responses.</p>
-<p><img src="images/robot.png" /></p>
-<p>In addition to the theoretical piece, I have conducted several pieces of empirical research to test the framework. For example, I tested how a social robot’s human voice vs. synthetic voice, and their gestural movements vs. non-gestural movements evoked different levels of users’ social presence, trust, and intention of future use. I also looked at how these social responses were moderated by individuals’ attitudes toward social robots and their past robot use experiences.</p>
-<p>Similarly, in a task-oriented context, I compared the effects of voice vs. text and anthropomorphic language vs. non-anthropomorphic language on individuals’ conformity to suggestions from a smartphone. And I noticed that such conformity depended upon individuals’ power use of smartphones and daily smartphone use experiences.</p>
-<p><img src="images/multidimensional.png" /> Furthermore, my coauthors and I combined multidimensional scaling and the quadratic assignment procedure to understand individuals’ fundamental psychological mechanisms in responding to technologies. We noticed that despite past mixed findings of mindfulness and mindlessness, mindlessness featured greater explanatory power underlying users’ social responses to technologies ranging from robotic vacuum cleaners and hardcover books to social robots and smartwatches.</p>
+<p>Communication is inherently complex and dynamic, involving numerous
+continuously changing variables. The interactions among these variables
+give rise to patterns that can differ qualitatively from one another.
+This perspective shapes my theoretical approach to communication
+research: complex dynamical systems theory (CDST). I view human
+communication as a dynamic system in which components evolve over time
+and interact in nonlinear ways. As such, the system cannot be reduced to
+isolated parts; or in other words, the whole is not the sum of its
+elements.</p>
+<p>Together with my doctoral advisor Dr. Annie Lang, my conceptual work,
+published at Media Psychology, demonstrates how this complex dynamic
+systems approach can facilitate communication research by fundamentally
+changing the conceptualization of communication leading to new research
+questions, reinterpretation and reanalysis of existing data and
+development of novel approaches to research design, data collection and
+analysis. In the paper, we use concrete examples from communication
+literature to demonstrate that looking at averages across time and
+across individuals might prevent us from understanding the dynamics of
+human communication and why controlling for specific contexts fails to
+explain the role of context in the system. Specific steps are introduced
+that communication scholars could take with this novel theoretical
+perspective in order to understand how human communication systems
+evolve over time and over the life course. This paper also received a
+Top Paper Award at the annual meeting of International Communication
+Association in 2018.</p>
 <p> </p>
 <p><u>Relevant publications:</u></p>
-<p>Lombard, M., &amp; Xu, K. (corresponding author) (2021). Social responses to media technologies: The Media are Social Actors paradigm. <em>Human-Machine Communication, 2,</em> 29-55. <a href="publications/Lombard%20&amp;%20Xu%202021%20Social%20Responses%20to%20Media%20Technologies%20in%20the%2021st%20Century_%20The%20M.pdf">PDF</a></p>
-<p>Xu, K. (2019). First encounter with robot Alpha: How individual differences interact with vocal and kinetic cues in users’ social responses. <em>New Media &amp; Society, 21,</em> 2522-2547. <a href="publications/Xu%202019%20Robot%20alpha.pdf">PDF</a></p>
-<p>Xu, K. (2020). Language, modality, and mobile media use experiences: Social responses to smartphone cues in a task-oriented context. <em>Telematics and Informatics, 48,</em> 101344 <a href="publications/Xu%202020%20Mobile%20phone%20study.pdf">PDF</a></p>
-<p>Xu, K., Chen, X., &amp; Huang, L. (2022). Deep mind in social responses to technologies: A new approach to explaining the Computers are Social Actors phenomena. <em>Computers in Human Behavior, 134,</em> 107321. <a href="publications/Xu%20et%20al.%202022%20Deep%20mind%20in%20social%20responses.pdf">PDF</a></p>
+<p>Han, J., &amp; Lang, A (2020). It’s a journey: From media effects to
+dynamic systems. Media Psychology, 23(3), 415-435, DOI:
+10.1080/15213269.2019.1604236. <a
+href="publications/Lombard%20&amp;%20Xu%202021%20Social%20Responses%20to%20Media%20Technologies%20in%20the%2021st%20Century_%20The%20M.pdf">PDF</a></p>
+<p>Han, J., &amp; Amon, M. (2021). A nonlinear dynamical systems
+approach to emotional attractor states during media viewing. Proceedings
+of the Annual Meeting of the Cognitive Science Society, 43 (43),
+2281-2287.<a
+href="publications/Xu%202019%20Robot%20alpha.pdf">PDF</a></p>
+<p>  If you’re interested in ‘dynamics’ or in the limitations of
+averaging data, I highly recommend you to read this book:</p>
 <p>   </p>
-<p><font color="green"><strong>[2] Testing and developing a framework that integrates HCI and computer-mediated communication (CMC):</strong></font></p>
+<p><font color="green"><strong>Empirically: Shared Biological and
+Neurological Processes:</strong></font></p>
 <p><img src="images/JCMC.png" /></p>
-<p>If the first line of my research describes how technologies may be designed to be social and “humanlike”, my second line of research probes into how technologies do not necessarily need to be “humanlike” to increase its user experience and enhance our communication effectiveness. A machine can be easily designed with additional visual/kinetic cues to achieve an ideal communication scenario. HCI and CMC are the two fields that have made important contributions to our understanding the role of computers in communication. Therefore, Dr. Liao and I looked into the similarities and differences in these two fields, especially regarding the conceptualizations of cues and social presence, and proposed that scholars may benefit from borrowing the concepts from these two fields and better understand these convergent technologies.</p>
+<p>Following the overarching CDST approach, this research line attempts
+to advance a paradigm shift from a single-brain approach to a
+multi-brain framework. For decades, researchers have investigated
+cognition, emotion, and behavior by isolating individuals from their
+natural environments. Most of what we know about mediated message
+processing comes from lab studies with individuals sitting in front of a
+large screen in a controlled setting. However, because worldly embedded
+social interaction is the essence of people’s experience, it is
+important to consider these complex interactions when understanding
+communication, cognition, and behavior. The significance of this shift
+to a multi-brain framework can be likened to the history of human
+understanding of the solar system. Studying cognition at the individual
+level is akin to Ptolemy’s egocentric view of the solar system. Only
+when Copernicus introduced the interactions between planets did we begin
+to truly understand the complexity of the solar system.</p>
+<p>My research program first focused on a complex communication context,
+video co-viewing, where both interpersonal and mass communication
+co-exist and jointly influence one’s information processing and
+behavior. I examined each type of communication involved in video
+co-viewing independently, i.e., human-media and human-human
+interactions, and then explored their combined effects.</p>
 <p><img src="images/SIDEme.png" /></p>
-<p>One empirical study that features this line of work was about how individuals may yield to peer pressure from multiple computer agents via even minimal control of visual cues. Combining the Social Identity Model of De-individuation Effects (SIDE) and the Media Equation, we noticed that individuals may succumb to computer agents’ group pressure even if they are aware of the nature of the machines.</p>
+<p>Specifically, I examined how individuals’ physiological process can
+be synchronized as a function of emotional content of videos. This
+human-media interaction piece was recognized as a Top Paper at ICA in
+2021 and published in Communication Monographs (Han et al., 2022).</p>
+<p><img src="images/SIDEme.png" /></p>
+<p>After that, I investigated how individuals process information from
+interpersonal conversations across a variety of mediated technologies.
+This analysis, published at Journal of Communication (Han et al., 2024)
+examined individual’s information processing patterns during
+conversations and how these patterns give rise to a shared information
+processing pattern, operationalized as interpersonal synchronization in
+psychophysiological responses, between the conversants.</p>
+<p>Finally, by combining human-media and human-human interactions in a
+video co-viewing context, I have examined how system dynamics can be
+altered as a function of individual, media, and task differences, by
+analyzing multimodal, multi-timescale data across individuals. This work
+has been conditionally accepted for a forthcoming special issue of
+Journal of Communication focusing on the concept of time in
+communication research.</p>
+<p>This series of study suggests that interpersonal communication is
+such a powerful factor that it can alter the system dynamics both
+physiologically and behaviorally; more importantly, its existence
+diminishes the media effect found in previous research where
+interpersonal communication was forbidden. Therefore, my research
+indicates that examining single timescales (for instance either
+behaviorally or physiologically) and focusing their effects on
+individuals might not be sufficient for a holistic understanding of the
+system. Instead, the system-level dynamics approach that focuses on
+system-level behaviors across multiple time scales, offers a new way of
+conceptualizing and operationalizing variables in each level, leading to
+novel and critical understanding of communication dynamics.</p>
 <p> </p>
 <p><u>Relevant publications:</u></p>
-<p>Xu, K., &amp; Liao, T. (2020). Explicating cues: A typology for understanding emerging media technologies. <em>Journal of Computer-Mediated Communication, 25,</em> 32-43. <a href="publications/Xu%20&amp;%20Liao%20Explicating%20Cues%20JCMC.pdf">PDF</a>; <a href="publications/ICA%20paper%205.30%20Kun%20&amp;%20Tony.pdf">Long Version</a></p>
-<p>Xu, K., &amp; Lombard, M. (2017). Persuasive computing: Feeling peer pressure from multiple computer agents. <em>Computers in Human Behavior, 74,</em> 152-162. <a href="publications/Xu_Lombard_Persuasive%20computing.pdf">PDF</a></p>
+<p>Han, J., Cores-Sarria, L., sZhou, H. (2024). In-person, video
+conference, or audio conference? Individual and dyadic information
+processing as a function of communication system. Journal of
+Communication, 74(2), 117-129.<a
+href="publications/Xu_Lombard_Persuasive%20computing.pdf">PDF</a></p>
+<p>Han, J. Lang, A., &amp; Amon, M. J. (2022). Can media synchronize our
+physiological responses? Skin conductance synchrony as a function of
+message valence, arousal, and emotional change rate. Communication
+Monographs, 89(1), 47-69. DOI: 10.1080/03637751.2021.1942105.<a
+href="publications/Xu_Lombard_Persuasive%20computing.pdf">PDF</a></p>
+<p>Aaron, N. Han, J., Vrzakova, H., Amon, M.J. (2023). Understanding
+collective human behavior in social media networks via the dynamical
+hypothesis. Topics in Cognitive Science. Online first.
+DOI:10.1111/tops.12702 <a
+href="publications/Xu_Lombard_Persuasive%20computing.pdf">PDF</a></p>
 <p>   </p>
-<p><font color="green"><strong>[3] Using novel methods to deepen our understanding of emerging technologies:</strong></font></p>
+<p><font color="green"><strong>Classical Mediated Messaging Processing
+Work</strong></font></p>
 <p><img src="images/location.png" /></p>
-<p>The last line of my research focuses on combining traditional social science approaches and novel methods to explore users’ emerging media use phenomena. I am particularly interested in using machines to learn about the real world.</p>
-<p>In the past, I have combined location-based social networks and geographic information system (GIS) to demonstrate WHERE public opinion leaders influence the discussion about a public event in mainland China, and how points of interests guide users’ check-in behavior. I found that the power of locative mobile social networks over space creation can be influenced by users’ access to technologies, socioeconomic environments, social identities, politics, geographic proximity to the event location, and the city infrastructure.</p>
-<p><img src="images/stm.png" /> In another study, my coauthors and I have combined machine learning approaches (e.g., structural topic modeling) and online experiments to investigate how different genres of artworks, intercultural differences, authorship cues influence participants’ aesthetic evaluation of machine-generated works.</p>
-<p> </p>
-<p><img src="images/AR%20map.png" /> In a study on augmented reality, my coauthors and I used spatial triad and qualitative methods to explain how people read places through the lens of AR, and also how they extrapolate, speculate, and make associations from AR information.</p>
+<p>Finally, I have applied the Limited Capacity Model of Motivated
+Mediated Messaging Processing (LC4MP, Lang, 2003, 2006, 2017) to
+investigate embodied cognition, emotional spillover effect and message
+order effects, and memory processes across various contexts including
+video viewing, health and sports communication.</p>
 <p> </p>
 <p><u>Relevant publications:</u></p>
-<p>Xu, K. (2018). Location speaks: Using GIS approach and Weibo check-in data to understand information communication in China. <em>China Media Research, 14,</em> 29-43. <a href="publications/Xu%20Location%20speaks.pdf">PDF</a></p>
-<p>Xu, K., Liu, F., Mou, Y., Zeng, J., &amp; Schafer, M. (2020). Using machine learning to learn machines: A cross-cultural study of users’ responses to machine-generated art works. <em>Journal of Broadcasting and Electronic Media, 64,</em> 566-591. <a href="publications/Xu%20et%20al.%202020%20Using%20Machine%20Learning%20to%20Learn%20Machines%20A%20Cross%20Cultural%20Study%20of%20Users%20Responses%20to%20Machine%20Generated%20Artworks.pdf">PDF</a></p>
-<p>Liao, T., Yang, H., Lee, S., Xu, K., &amp; Bennett, S. (2020). Augmented criminality: How people process in-situ augmented reality crime information in relation to space/place. <em>Mobile Media &amp; Communication, 8,</em> 360-378. <a href="publications/liao%20et%20al.%20augmented%20reality.pdf">PDF</a></p>
-<p>Xu, K., Chan-Olmsted, S., &amp; Liu, F. (2022). Smart speakers require smart management: Two routes from user gratifications to privacy settings. <em>International Journal of Communication, 16,</em> 192-214. <a href="publications/Xu%20et%20al.%202022%20Smartspeakers.pdf">PDF</a></p>
-
-
-
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
-</body>
-</html>
+<p><em>Cores-Sarria, L., </em>Han, J., Myrick, J., Potter. R. (2023).
+The Effects of ‘Media Tech Neck’: The Impact of Spinal Flexion on
+Cognitive and Emotional Processing of Videos. Communication Research,
+50(5), 584-609. DOI:10.1177/00936502221150319 *authors made equal
+contribution.</p>
+<p>Kim, M., Potter, R., &amp; Han, J. (2023). Motivational system
+approach to understand ad processing following various game outcomes.
+Sport Management Review, 26(4), 517-539, DOI:
+10.1080/14413523.2022.2137969</p>
