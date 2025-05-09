@@ -1,0 +1,69 @@
+---
+title: "Publications"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+<font color="red">Latest update: 08/01/2024.</font>
+
+<font color="green">**Peer-Reviewed Journal Articles:**</font>
+
+Han, J., Cores-Sarria, L., sZhou, H. (2024). In-person, video conference, or audio conference? Individual and dyadic information processing as a function of communication system. *Journal of Communication*, 74(2), 117-129. [PDF](publications/Xu & Shi 2024 XAI & communication.pdf)
+
+Han, J. & sYu, H. (2024). Applying LC4MP to communication research in China: Challenges, applications, and pathways. *Global Journal of Media Studies*,2024(3), 74-91. (in Chinese)
+
+Aaron, N. Han, J., Vrzakova, H., Amon, M.J. (2023). Understanding collective human behavior in social media networks via the dynamical hypothesis. *Topics in Cognitive Science*. Online first.  DOI:10.1111/tops.12702
+
+*Cores-Sarria, L., *Han, J., Myrick, J., Potter. R. (2023). The Effects of ‘Media Tech Neck’: 
+The Impact of Spinal Flexion on Cognitive and Emotional Processing of Videos. *Communication Research*, 50(5), 584-609.  DOI:10.1177/00936502221150319
+*authors made equal contribution. 
+
+Kim, M., Potter, R., & Han, J. (2023). Motivational system approach to understand ad processing following various game outcomes. *Sport Management Review*, 26(4), 517-539, DOI: 10.1080/14413523.2022.2137969 
+
+Han. J., Zheng, X., Shen, B. & Sun, S. (2022): Nonsmokers’
+responses to online e-cigarette commercials: Effects of argument quantity and celebrity
+endorsement. *Substance Use & Misuse*, 57(6), 948-955.DOI: 10.1080/10826084.2022.2052101.
+
+Han, J. Lang, A., & Amon, M. J. (2022). Can media synchronize our physiological responses? Skin conductance synchrony as a function of message valence, arousal, and emotional change rate. *Communication Monographs*, 89(1), 47-69. DOI: 10.1080/03637751.2021.1942105.
+
+Han, J., & Lang, A (2020). It’s a journey: From media effects to dynamic systems. *Media Psychology*, 23(3), 415-435, DOI: 10.1080/15213269.2019.1604236. 
+
+Han, J., Sun, S., & Lu, Y. (2017). Framing climate change: A content analysis of Chinese mainstream newspapers from 2005 to 2015. *International Journal of Communication*, 11, 2889-2911. 
+
+Shen, G., Han, J., & Wang, L. (2014). An overview of Chinese health communication research during H7N9 influenza. *Journalism Bimonthly*, 123, 100-104. (in Chinese)
+
+Han, J. (2013). Online interpersonal communication and offline social network: Mapping model and its predictors. *China Computer-mediated Communication*, VII, 167-186. (in Chinese)
+
+Sun, S., Wang, L., Jiang, H., Han, J., & Wang, Y. (2012). Why grassroots stars shine on the social media. *Medien Journal*, 4/2012, 33-40. (The top journal in Austria)
+
+Han, J., & Li, X. (2010). Distinguishing format radio and specialized radio. *Journalism Lover*, 2010(3), 113-114. (in Chinese)
+
+Han, J., & Xu, L. (2010). Rethinking programming skills of format radio. *China Radio*, 2010(9), 60-62. (in Chinese)
+
+Han, J. (2010). The construction of citizen journalism on social equity and justice.  *Huazhong Humanity Forum*, 2010(1), 191-194. (in Chinese)
+
+
+
+<font color="green">**Conference Proceedings:**</font>
+Han, J., & Amon, M. (2021). A nonlinear dynamical systems approach to emotional attractor states during media viewing. Proceedings of the Annual Meeting of the Cognitive Science Society, 43 (43), 2281-2287.
+
+<font color="green">**Refereed published abstracts:**</font>
+Han, J., & Zhou, H. (2022). Physiological evidence of Zoom fatigue: The effect of non- and mediated human communication on mental effort. Psychophysiology, 59(S2), S53.
+Han, J., Cores-Sarria, L., Myrick, J., Potter. R. (2021). Spinal Flexion effects on cognitive and emotional processing during video viewing. Psychophysiology, 58, S76.
+Han, J., & Amon, M. (2020). Emotional arousal attractors during video viewing. Psychophysiology, 57, S41.
+Han, J., Shi, Y., Yan, Y., Roberson, G. C., Zou, L., Chae, S., Lang, A. (2019). Message valence and arousal influence skin conductance synchrony in dyads of friends and strangers: A comparison of linear and nonlinear analyses. Psychophysiology, 55, S104.
+Zheng, X., & Han, J. (2019). Physiological responses to audiovisual media messages by people with different political attitudes and moral motives. Psychophysiology, 55, S109.
+Han, J., Zheng, X., & Liu, T. (2017). A physiological examination of two coping models. Psychophysiology, 54, S53.
+Han, J., Almond, A., & Lang, A. (2015). Sensitive dependence on initial conditions of mediated message processing. Psychophysiology, 52, S108.
+
+<font color="green">**Book Chapters:**</font>
+
+Bailey, R., Han, J., & Read, G. (forthcoming). Dynamic systems and media psychology. In Rachel Bailey & Glenna L. Read (Eds.), De Gruyter handbook of media psychology. De Gruyter.
+Detenber, B., Han, J., & Lang, A. (2022). The influence of form and presentation attributes of media on emotion. In K. Doveling, C. von Scheve, & E. Konijin (Eds.), The Routledge handbook of emotions and mass media (2nd edition). New York, NY: Routledge.
+Lang, A., Han, J., Zheng, X, Almond, A., Lynch, T., & Mathews, N. (2018). Learning to play: How virtual world affordances drive adaptation and learning in Grand Theft Auto. In J. Breuer, D. Pietschmann, B. Liebold, & B. P. Lange (Eds.), Evolutionary psychology and digital games: Digital hunter-gatherers. Abingdon, UK: Routledge.
+
+
+
+
+
