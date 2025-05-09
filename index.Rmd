@@ -3,12 +3,12 @@ title: "About Me"
 ---
 
 
-![](~/Documents/GitHub/kunxu.github.io/images/me.jpg)
+![](E:/Academic/Fudan/bio/me.jpg)
 
-My name is Kun Xu. I am an Associate Professor of Emerging Technologies at [the University of Florida College of Journalism and Communications](https://www.jou.ufl.edu/). 
+My name is Jingjing Han. I am an Associate Professor at <a href="https://xwxy.fudan.edu.cn/NewsEn/">the School of Journalism at Fudan University</a>.</p>
 
-My research focuses on human-robot interaction, human-computer interaction, computer-mediated communication, and psychological processing of emerging media. I use social scientific approaches to investigate how people perceive, evaluate, and interact with humanoid social robots, virtual agents, and mobile assistants. I am also interested in how people make sense of spaces and maintain social relationships in virtual and augmented reality environments. 
+My research focuses on dynamic changes of cognitive and emotional processing during human-human and human-machine/media communication. ...</a>.</p>
 
-My research seeks to inform UI design, UX design, education, health communication, and political communication. I primarily use lab experiments, multivariate/modeling techniques (SEM and HLM), computational methods (GIS, machine learning), and visual analyses in my works.
+I currently serve the Vice chair elected of <a href="https://infosysica.org/">the Information Systems Division of ICA, and associate editor of <a href="https://onlinelibrary.wiley.com/journal/15516709">Cognitive Science </a>.</p>
 
-Born and brought up in Shanghai, I received my B.A. in International Journalism (major) and German (minor) from [Shanghai International Studies University](http://en.shisu.edu.cn/). I worked as a cameraman in the TV Department at [Reuters News Agency](https://www.reuters.com/) and as a news editor in the TV Center of Shanghai Media Group (SMG). I obtained my Ph.D. in media and communication at [Temple University](https://klein.temple.edu/academics/media-and-communication-doctoral-program).
+I obtained my Ph.D. in media arts and sciences at <a href="https://mediaschool.indiana.edu/index.html">the Media School of Indiana University Bloomington</a>.</p>
