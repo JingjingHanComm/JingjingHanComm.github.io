@@ -1,6 +1,8 @@
 ---
 title: "Research Areas"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 &nbsp;
@@ -8,7 +10,8 @@ output: pdf_document
 
 <font color="green">Latest update: 05/08/2025</font>
 
-My research is rooted in communication science and cognitive science. My research focuses on system-level dynamics in cognition, emotion, and behavior in human-human and human-media/machine communication, using the complex dynamic systems framework and computational and nonlinear dynamical analytical tools. The goal of my research program is to employ dynamic systems theory and complex systems analyses to accurately model, explain, and predict dynamic communication behaviors.  
+My research is rooted in communication science and cognitive science. My research focuses on system-level dynamics in cognition, emotion, and behavior in human-human and human-media/machine communication, using the complex dynamic systems framework and computational and nonlinear dynamical tools. 
+The goal of my research program is to employ dynamic systems theory and complex systems analyses to accurately model, explain, and predict dynamic communication behaviors.  
 
 &nbsp;
 &nbsp;
@@ -85,8 +88,8 @@ Finally, I have applied the Limited Capacity Model of Motivated Mediated Messagi
 
 <u>Relevant publications:</u>
 
-*Cores-Sarria, L., *Han, J., Myrick, J., Potter. R. (2023). The Effects of ‘Media Tech Neck’: 
++Cores-Sarria, L., +Han, J., Myrick, J., Potter. R. (2023). The Effects of ‘Media Tech Neck’: 
 The Impact of Spinal Flexion on Cognitive and Emotional Processing of Videos. Communication Research, 50(5), 584-609.  DOI:10.1177/00936502221150319
-*authors made equal contribution. 
++authors made equal contribution. 
 
 Kim, M., Potter, R., & Han, J. (2023). Motivational system approach to understand ad processing following various game outcomes. Sport Management Review, 26(4), 517-539, DOI: 10.1080/14413523.2022.2137969 
