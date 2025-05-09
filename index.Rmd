@@ -3,7 +3,7 @@ title: "About Me"
 ---
 
 
-![](E:/Academic/Fudan/bio/me2.jpg)
+![](images/me2.jpg)
 
 Hello,my name is Jingjing Han. I am an Associate Professor of Emerging Technologies at [the School of Journalism at Fudan University](https://xwxy.fudan.edu.cn/NewsEn/). 
 
