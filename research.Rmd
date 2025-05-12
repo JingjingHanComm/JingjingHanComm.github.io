@@ -16,14 +16,10 @@ The goal of my research program is to employ dynamic systems theory and complex 
 &nbsp;
 &nbsp;
 
-<font color="green">**My research program involves three directions:**</font>
 
-&nbsp;
-&nbsp;
+<font color="green">**A Complex Dynamic Systems Framework to Communication Research**</font>
 
-<font color="green">**Conceptually: A Complex Dynamic Systems Framework to Communication Research**</font>
-
-![](images/masa2.png)
+![](images/RosslerSystem.jpg)
 
 Communication is inherently complex and dynamic, involving numerous continuously changing variables. The interactions among these variables give rise to patterns that can differ qualitatively from one another. This perspective shapes my theoretical approach to communication research: complex dynamical systems theory (CDST). I view human communication as a dynamic system in which components evolve over time and interact in nonlinear ways. As such, the system cannot be reduced to isolated parts; or in other words, the whole is not the sum of its elements.
 
@@ -33,30 +29,27 @@ Together with my doctoral advisor Dr. Annie Lang, my conceptual work, published 
 
 <u>Relevant publications:</u>
 
-Han, J., & Lang, A (2020). It’s a journey: From media effects to dynamic systems. Media Psychology, 23(3), 415-435, DOI: 10.1080/15213269.2019.1604236. [PDF](publications/Lombard & Xu 2021 Social Responses to Media Technologies in the 21st Century_ The M.pdf)
+Han, J., & Lang, A (2020). It’s a journey: From media effects to dynamic systems. Media Psychology, 23(3), 415-435.[PDF](publications/HanLang2019)
 
-Han, J., & Amon, M. (2021). A nonlinear dynamical systems approach to emotional attractor states during media viewing. Proceedings of the Annual Meeting of the Cognitive Science Society, 43 (43), 2281-2287.[PDF](publications/Xu 2019 Robot alpha.pdf)
-
-&nbsp;
-If you’re interested in ‘dynamics’ or in the limitations of averaging data, I highly recommend you to read this book:
+Han, J., & Amon, M. (2021). A nonlinear dynamical systems approach to emotional attractor states during media viewing. Proceedings of the Annual Meeting of the Cognitive Science Society, 43 (43), 2281-2287.[PDF](publications/HanAmon_CogSciProceeding21)
 
 &nbsp;
+If you’re interested in ‘dynamics’ or in the limitations of averaging data, I highly recommend you to read this book: [The End of Average](https://www.amazon.com/End-Average-Succeed-Values-Sameness/dp/0062358367)
+
+&nbsp;
 &nbsp;
 
-<font color="green">**Empirically: Shared Biological and Neurological Processes:**</font>
+<font color="green">**Shared Biological and Neurological Processes:**</font>
 
-![](images/JCMC.png)
+![](images/Coviewing.jpg)
 
 Following the overarching CDST approach, this research line attempts to advance a paradigm shift from a single-brain approach to a multi-brain framework. For decades, researchers have investigated cognition, emotion, and behavior by isolating individuals from their natural environments. Most of what we know about mediated message processing comes from lab studies with individuals sitting in front of a large screen in a controlled setting. However, because worldly embedded social interaction is the essence of people’s experience, it is important to consider these complex interactions when understanding communication, cognition, and behavior. The significance of this shift to a multi-brain framework can be likened to the history of human understanding of the solar system. Studying cognition at the individual level is akin to Ptolemy’s egocentric view of the solar system. Only when Copernicus introduced the interactions between planets did we begin to truly understand the complexity of the solar system.
 
 My research program first focused on a complex communication context, video co-viewing, where both interpersonal and mass communication co-exist and jointly influence one’s information processing and behavior. I examined each type of communication involved in video co-viewing independently, i.e., human-media and human-human interactions, and then explored their combined effects. 
 
- 
-![](images/SIDEme.png)
 
 Specifically, I examined how individuals’ physiological process can be synchronized as a function of emotional content of videos. This human-media interaction piece was recognized as a Top Paper at ICA in 2021 and published in Communication Monographs (Han et al., 2022). 
 
-![](images/SIDEme.png)
 
 After that, I investigated how individuals process information from interpersonal conversations across a variety of mediated technologies. This analysis, published at Journal of Communication (Han et al., 2024) examined individual’s information processing patterns during conversations and how these patterns give rise to a shared information processing pattern, operationalized as interpersonal synchronization in psychophysiological responses, between the conversants. 
 
@@ -68,17 +61,16 @@ This series of study suggests that interpersonal communication is such a powerfu
 
 <u>Relevant publications:</u>
 
-Han, J., Cores-Sarria, L., sZhou, H. (2024). In-person, video conference, or audio conference? Individual and dyadic information processing as a function of communication system. Journal of Communication, 74(2), 117-129.[PDF](publications/Xu_Lombard_Persuasive computing.pdf)
+Han, J., Cores-Sarria, L., sZhou, H. (2024). In-person, video conference, or audio conference? Individual and dyadic information processing as a function of communication system. Journal of Communication, 74(2), 117-129.[PDF](publications/HanJOC2023.pdf)
 
-Han, J. Lang, A., & Amon, M. J. (2022). Can media synchronize our physiological responses? Skin conductance synchrony as a function of message valence, arousal, and emotional change rate. Communication Monographs, 89(1), 47-69. DOI: 10.1080/03637751.2021.1942105.[PDF](publications/Xu_Lombard_Persuasive computing.pdf)
+Han, J. Lang, A., & Amon, M. J. (2022). Can media synchronize our physiological responses? Skin conductance synchrony as a function of message valence, arousal, and emotional change rate. Communication Monographs, 89(1), 47-69.[PDF](publications/HanLangAmon_CommMonographs_2022)
 
-Aaron, N. Han, J., Vrzakova, H., Amon, M.J. (2023). Understanding collective human behavior in social media networks via the dynamical hypothesis. Topics in Cognitive Science. Online first.  DOI:10.1111/tops.12702
-[PDF](publications/Xu_Lombard_Persuasive computing.pdf)
+Aaron, N. Han, J., Vrzakova, H., Amon, M.J. (2023). Understanding collective human behavior in social media networks via the dynamical hypothesis. Topics in Cognitive Science. Online first. [PDF](publications/NecaiseHan2023)
 
 &nbsp;
 &nbsp;
 
-<font color="green">**Classical Mediated Messaging Processing Work**</font>
+<font color="green">**Mediated Messaging Processing**</font>
 
 ![](images/location.png)
 
@@ -89,7 +81,7 @@ Finally, I have applied the Limited Capacity Model of Motivated Mediated Messagi
 <u>Relevant publications:</u>
 
 +Cores-Sarria, L., +Han, J., Myrick, J., Potter. R. (2023). The Effects of ‘Media Tech Neck’: 
-The Impact of Spinal Flexion on Cognitive and Emotional Processing of Videos. Communication Research, 50(5), 584-609.  DOI:10.1177/00936502221150319
+The Impact of Spinal Flexion on Cognitive and Emotional Processing of Videos. Communication Research, 50(5), 584-609.[PDF](publications/CR2023)
 +authors made equal contribution. 
 
-Kim, M., Potter, R., & Han, J. (2023). Motivational system approach to understand ad processing following various game outcomes. Sport Management Review, 26(4), 517-539, DOI: 10.1080/14413523.2022.2137969 
+Kim, M., Potter, R., & Han, J. (2023). Motivational system approach to understand ad processing following various game outcomes. Sport Management Review, 26(4), 517-539.[PDF](publications/LeePotterHan2022)
