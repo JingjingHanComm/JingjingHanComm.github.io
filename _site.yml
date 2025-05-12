@@ -1,41 +1,19 @@
-name:  "personal-website"
+name: "personal-website"
 output_dir: "."
 navbar:
-  title:  "Kun Xu website"
+  title: "Jingjing Han"
   left:
-    - text:  "About Me"
+    - text: "About Me"
       href: index.html
-    - text:  "Research"
+    - text: "Research"
       href: research.html
-    - text:  "Publications"
+    - text: "Publications"
       href: publications.html
-    - text: "PAI Lab"
-      href: PAILab.html
-    - text:  "Teaching"
-      href: teaching.html
-    - text: "Media"
-      href: media.html
-    - text:  "CV"
-      href: cv.html
-    - text:  "Contact/中文"
-      href: contact.html
   right:
     - icon: fa-envelope fa-lg
-      href: mailto:<kun.xu@ufl.edu>
-    - icon: fa-google fa-lg
-      href: https://scholar.google.com/citations?user=ojzP8I0AAAAJ&hl=en
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/bigben219
-    - icon: fa-github fa-lg
-      href: https://github.com/xkunnet
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/kun-xu/
-
+      href: mailto:<jingjinghan@fudan.edu.cn>
 
 output:
   html_document:
     theme: simplex
     css: style.css
-
-
-    
