@@ -29,9 +29,9 @@ Together with my doctoral advisor Dr. Annie Lang, my conceptual work, published 
 
 <u>Relevant publications:</u>
 
-Han, J., & Lang, A (2020). It’s a journey: From media effects to dynamic systems. Media Psychology, 23(3), 415-435.[PDF](publications/HanLang2019)
+Han, J., & Lang, A (2020). It’s a journey: From media effects to dynamic systems. Media Psychology, 23(3), 415-435.[PDF](publications/HanLang2019.pdf)
 
-Han, J., & Amon, M. (2021). A nonlinear dynamical systems approach to emotional attractor states during media viewing. Proceedings of the Annual Meeting of the Cognitive Science Society, 43 (43), 2281-2287.[PDF](publications/HanAmon_CogSciProceeding21)
+Han, J., & Amon, M. (2021). A nonlinear dynamical systems approach to emotional attractor states during media viewing. Proceedings of the Annual Meeting of the Cognitive Science Society, 43 (43), 2281-2287.[PDF](publications/HanAmon_CogSciProceeding21.pdf)
 
 &nbsp;
 If you’re interested in ‘dynamics’ or in the limitations of averaging data, I highly recommend you to read this book: [The End of Average](https://www.amazon.com/End-Average-Succeed-Values-Sameness/dp/0062358367)
@@ -63,9 +63,9 @@ This series of study suggests that interpersonal communication is such a powerfu
 
 Han, J., Cores-Sarria, L., sZhou, H. (2024). In-person, video conference, or audio conference? Individual and dyadic information processing as a function of communication system. Journal of Communication, 74(2), 117-129.[PDF](publications/HanJOC2023.pdf)
 
-Han, J. Lang, A., & Amon, M. J. (2022). Can media synchronize our physiological responses? Skin conductance synchrony as a function of message valence, arousal, and emotional change rate. Communication Monographs, 89(1), 47-69.[PDF](publications/HanLangAmon_CommMonographs_2022)
+Han, J. Lang, A., & Amon, M. J. (2022). Can media synchronize our physiological responses? Skin conductance synchrony as a function of message valence, arousal, and emotional change rate. Communication Monographs, 89(1), 47-69.[PDF](publications/HanLangAmon_CommMonographs_2022.pdf)
 
-Aaron, N. Han, J., Vrzakova, H., Amon, M.J. (2023). Understanding collective human behavior in social media networks via the dynamical hypothesis. Topics in Cognitive Science. Online first. [PDF](publications/NecaiseHan2023)
+Aaron, N. Han, J., Vrzakova, H., Amon, M.J. (2023). Understanding collective human behavior in social media networks via the dynamical hypothesis. Topics in Cognitive Science. Online first. [PDF](publications/NecaiseHan2023.pdf)
 
 &nbsp;
 &nbsp;
@@ -81,7 +81,7 @@ Finally, I have applied the Limited Capacity Model of Motivated Mediated Messagi
 <u>Relevant publications:</u>
 
 +Cores-Sarria, L., +Han, J., Myrick, J., Potter. R. (2023). The Effects of ‘Media Tech Neck’: 
-The Impact of Spinal Flexion on Cognitive and Emotional Processing of Videos. Communication Research, 50(5), 584-609.[PDF](publications/CR2023)
+The Impact of Spinal Flexion on Cognitive and Emotional Processing of Videos. Communication Research, 50(5), 584-609.[PDF](publications/CR2023.pdf)
 +authors made equal contribution. 
 
-Kim, M., Potter, R., & Han, J. (2023). Motivational system approach to understand ad processing following various game outcomes. Sport Management Review, 26(4), 517-539.[PDF](publications/LeePotterHan2022)
+Kim, M., Potter, R., & Han, J. (2023). Motivational system approach to understand ad processing following various game outcomes. Sport Management Review, 26(4), 517-539.[PDF](publications/LeePotterHan2022.pdf)
