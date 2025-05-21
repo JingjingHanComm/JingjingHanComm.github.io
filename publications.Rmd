@@ -13,20 +13,20 @@ Han, J., Cores-Sarria, L., Zhou, H. (2024). In-person, video conference, or audi
 
 Han, J. & Yu, H. (2024). Applying LC4MP to communication research in China: Challenges, applications, and pathways. *Global Journal of Media Studies*,2024(3), 74-91. (in Chinese)
 
-Aaron, N. Han, J., Vrzakova, H., Amon, M.J. (2023). Understanding collective human behavior in social media networks via the dynamical hypothesis. *Topics in Cognitive Science*. Online first.[PDF](publications/NecaiseHan2023)
+Aaron, N. Han, J., Vrzakova, H., Amon, M.J. (2023). Understanding collective human behavior in social media networks via the dynamical hypothesis. *Topics in Cognitive Science*. Online first.[PDF](publications/NecaiseHan2023.pdf)
 
 Cores-Sarria, L., Han, J., Myrick, J., Potter. R. (2023). The Effects of ‘Media Tech Neck’: 
-The Impact of Spinal Flexion on Cognitive and Emotional Processing of Videos. *Communication Research*, 50(5), 584-609.[PDF](publications/CR2023)
+The Impact of Spinal Flexion on Cognitive and Emotional Processing of Videos. *Communication Research*, 50(5), 584-609.[PDF](publications/CR2023.pdf)
 *the first two authors made equal contribution. 
 
-Kim, M., Potter, R., & Han, J. (2023). Motivational system approach to understand ad processing following various game outcomes. *Sport Management Review*, 26(4), 517-539.[PDF](publications/LeePotterHan2022)
+Kim, M., Potter, R., & Han, J. (2023). Motivational system approach to understand ad processing following various game outcomes. *Sport Management Review*, 26(4), 517-539.[PDF](publications/LeePotterHan2022.pdf)
 
 Han. J., Zheng, X., Shen, B. & Sun, S. (2022): Nonsmokers’responses to online e-cigarette commercials: Effects of argument quantity and celebrity
-endorsement. *Substance Use & Misuse*, 57(6), 948-955.[PDF](publications/LeePotterHan2022)
+endorsement. *Substance Use & Misuse*, 57(6), 948-955.[PDF](publications/LeePotterHan2022.pdf)
 
-Han, J. Lang, A., & Amon, M. J. (2022). Can media synchronize our physiological responses? Skin conductance synchrony as a function of message valence, arousal, and emotional change rate. *Communication Monographs*, 89(1), 47-69. [PDF](publications/HanLangAmon_CommMonographs_2022)
+Han, J. Lang, A., & Amon, M. J. (2022). Can media synchronize our physiological responses? Skin conductance synchrony as a function of message valence, arousal, and emotional change rate. *Communication Monographs*, 89(1), 47-69. [PDF](publications/HanLangAmon_CommMonographs_2022.pdf)
 
-Han, J., & Lang, A (2020). It’s a journey: From media effects to dynamic systems. *Media Psychology*, 23(3), 415-435. [PDF](publications/HanLang2019)
+Han, J., & Lang, A (2020). It’s a journey: From media effects to dynamic systems. *Media Psychology*, 23(3), 415-435. [PDF](publications/HanLang2019.pdf)
 
 Han, J., Sun, S., & Lu, Y. (2017). Framing climate change: A content analysis of Chinese mainstream newspapers from 2005 to 2015. *International Journal of Communication*, 11, 2889-2911. 
 
@@ -45,7 +45,7 @@ Han, J. (2010). The construction of citizen journalism on social equity and just
 
 
 <font color="green">**Conference Proceedings:**</font>
-Han, J., & Amon, M. (2021). A nonlinear dynamical systems approach to emotional attractor states during media viewing. Proceedings of the Annual Meeting of the Cognitive Science Society, 43 (43), 2281-2287.[PDF](publications/HanAmon_CogSciProceeding21)
+Han, J., & Amon, M. (2021). A nonlinear dynamical systems approach to emotional attractor states during media viewing. Proceedings of the Annual Meeting of the Cognitive Science Society, 43 (43), 2281-2287. [PDF](publications/HanAmon_CogSciProceeding21.pdf)
 
 <font color="green">**Refereed published abstracts:**</font>
 Han, J., & Zhou, H. (2022). Physiological evidence of Zoom fatigue: The effect of non- and mediated human communication on mental effort. Psychophysiology, 59(S2), S53.
