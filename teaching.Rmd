@@ -1,0 +1,54 @@
+---
+title: "Teaching"
+output:
+  html_document:
+    df_print: paged
+---
+&nbsp;
+&nbsp;
+
+
+
+**Fudan University**
+
+
+- Human-Machine Communication (Master’s level, Taught in English)
+
+  *For Fudan-LSE(London School of Economics and Political Science) and Fudan-Sciences Po Paris (Paris Institute of Political Studies) dual degree students*  
+   
+- Communication and Cognitive Neuroscience (Doctoral seminar)
+- Experimental Research (Doctoral seminar)
+- Communication and Cognition (Undergraduate)
+- Research Methods in Communication Research (Undergraduate)
+- Frontier Topics in Communication Research (Undergraduate)
+
+**Santa Clara University**
+
+
+-	Communication & Technology (Undergraduate)
+- Quantitative Research Methods (Undergraduate)
+-	Media in a Global World (Undergraduate)
+
+**Indiana University**
+
+
+*Graduate*
+
+- Time Series Analysis (Online course designer)
+    
+    *Data Science Program, School of Informatics, Computing, and Engineering*
+
+*Undergraduate*
+
+- Race, Prejudice, and the Media (Instructor of Record)
+-	Media (Discussion Leader)
+- Electronic Media Advertising (Associate Instructor & Guest Lecturer)
+- Promotion and Marketing (Associate Instructor & Guest Lecturer)
+- Introduction to Media Industries and Management (Associate Instructor)
+- Introduction to Media and Society (Associate Instructor)
+- Introduction to Sports Media (Associate Instructor)
+- Telecommunications Processes and Effects (Associate Instructor)
+-	Audience Analysis (Associate Instructor)
+
+
+
