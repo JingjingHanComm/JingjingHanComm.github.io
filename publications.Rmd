@@ -1,8 +1,8 @@
 ---
 title: "Publications"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 <font color="red">Latest update: 08/01/2024.</font>
@@ -24,7 +24,7 @@ Kim, M., Potter, R., & Han, J. (2023). Motivational system approach to understan
 Han. J., Zheng, X., Shen, B. & Sun, S. (2022): Nonsmokers’responses to online e-cigarette commercials: Effects of argument quantity and celebrity
 endorsement. *Substance Use & Misuse*, 57(6), 948-955.[PDF](publications/LeePotterHan2022.pdf)
 
-Han, J. Lang, A., & Amon, M. J. (2022). Can media synchronize our physiological responses? Skin conductance synchrony as a function of message valence, arousal, and emotional change rate. *Communication Monographs*, 89(1), 47-69. [PDF](publications/HanLangAmon_CommMonographs_2022.pdf)
+Han, J. Lang, A., & Amon, M. J. (2022). Can media synchronize our physiological responses? Skin conductance synchrony as a function of message valence, arousal, and emotional change rate. *Communication Monographs*, 89(1), 47-69. [PDF](publications/HanLangAmon_CommMonographs_2022.pdf)  [Video](https://youtu.be/zjg6qYk91ps)
 
 Han, J., & Lang, A (2020). It’s a journey: From media effects to dynamic systems. *Media Psychology*, 23(3), 415-435. [PDF](publications/HanLang2019.pdf)
 
