@@ -262,7 +262,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:&lt;jingjinghan@fudan.edu.cn&gt;">
+  <a href="mailto:hanjing@alumni.iu.edu">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -281,37 +281,41 @@ $(document).ready(function () {
 </div>
 
 
-<p>   </p>
-<p><strong>Fudan University</strong></p>
+<div id="fudan-university" class="section level3">
+<h3>Fudan University</h3>
 <ul>
-<li><p>Human-Machine Communication (Master’s level, Taught in
-English)</p>
-<p><em>For Fudan-LSE(London School of Economics and Political Science)
-and Fudan-Sciences Po Paris (Paris Institute of Political Studies) dual
-degree students</em></p></li>
-<li><p>Communication and Cognitive Neuroscience (Doctoral
-seminar)</p></li>
-<li><p>Experimental Research (Doctoral seminar)</p></li>
-<li><p>Communication and Cognition (Undergraduate)</p></li>
-<li><p>Research Methods in Communication Research
-(Undergraduate)</p></li>
-<li><p>Frontier Topics in Communication Research
-(Undergraduate)</p></li>
+<li>AI-mediated Communication (Master’s level, taught in English)<br>
+<em>For graduate students from the London School of Economics and
+Political Science (LSE) and Sciences Po Paris</em><br> <span
+class="award">Awarded as University-level Merit Course, Fall
+2025</span></li>
+<li>Experimental Research (Doctoral seminar)</li>
+<li>Communication and Cognition (Undergraduate)</li>
+<li>Research Methods in Communication Research (Undergraduate)<br> <span
+class="award">Awarded as University-level Merit Course, Fall
+2025</span></li>
+<li>Frontier Topics in Communication Research (Undergraduate)</li>
 </ul>
-<p><strong>Santa Clara University</strong></p>
+</div>
+<div id="santa-clara-university" class="section level3">
+<h3>Santa Clara University</h3>
 <ul>
 <li>Communication &amp; Technology (Undergraduate)</li>
 <li>Quantitative Research Methods (Undergraduate)</li>
 <li>Media in a Global World (Undergraduate)</li>
 </ul>
-<p><strong>Indiana University</strong></p>
-<p><em>Graduate</em></p>
+</div>
+<div id="indiana-university" class="section level3">
+<h3>Indiana University</h3>
+<div id="graduate" class="section level4">
+<h4>Graduate</h4>
 <ul>
-<li><p>Time Series Analysis (Online course designer)</p>
-<p><em>Data Science Program, School of Informatics, Computing, and
-Engineering</em></p></li>
+<li>Time Series Analysis (Online course designer)<br> <em>Data Science
+Program, School of Informatics, Computing, and Engineering</em></li>
 </ul>
-<p><em>Undergraduate</em></p>
+</div>
+<div id="undergraduate" class="section level4">
+<h4>Undergraduate</h4>
 <ul>
 <li>Race, Prejudice, and the Media (Instructor of Record)</li>
 <li>Media (Discussion Leader)</li>
@@ -326,7 +330,74 @@ Instructor)</li>
 <li>Telecommunications Processes and Effects (Associate Instructor)</li>
 <li>Audience Analysis (Associate Instructor)</li>
 </ul>
+</div>
+</div>
+<div id="professional-training" class="section level3">
+<h3>Professional Training</h3>
+<ul>
+<li>ACUE Micro-Credential in Promoting Active Online Learning,
+Association of College and University Educators (2020)</li>
+<li>Advanced Training Institute: Nonlinear Methods for Psychological
+Sciences, American Psychological Association (2017)</li>
+</ul>
+</div>
 
+<script>
+(function () {
+  var EMAIL = 'hanjing@alumni.iu.edu';
+
+  function showToast(msg) {
+    var t = document.querySelector('.copy-toast');
+    if (!t) {
+      t = document.createElement('div');
+      t.className = 'copy-toast';
+      t.setAttribute('role', 'status');
+      t.setAttribute('aria-live', 'polite');
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(t._timer);
+    t._timer = setTimeout(function () { t.classList.remove('show'); }, 2200);
+  }
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+    return ok;
+  }
+
+  function copyEmail(e) {
+    e.preventDefault();
+    var done = function () { showToast('Email copied: ' + EMAIL); };
+    var failed = function () { showToast('Email: ' + EMAIL); };
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(EMAIL).then(done, function () {
+        fallbackCopy(EMAIL) ? done() : failed();
+      });
+    } else {
+      fallbackCopy(EMAIL) ? done() : failed();
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('.navbar a[href^="mailto:"]');
+    for (var i = 0; i < links.length; i++) {
+      links[i].setAttribute('title', 'Copy email address (' + EMAIL + ')');
+      links[i].setAttribute('aria-label', 'Copy email address');
+      links[i].addEventListener('click', copyEmail);
+    }
+  });
+})();
+</script>
 
 
 

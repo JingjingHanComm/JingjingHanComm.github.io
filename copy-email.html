@@ -1,0 +1,56 @@
+<script>
+(function () {
+  var EMAIL = 'hanjing@alumni.iu.edu';
+
+  function showToast(msg) {
+    var t = document.querySelector('.copy-toast');
+    if (!t) {
+      t = document.createElement('div');
+      t.className = 'copy-toast';
+      t.setAttribute('role', 'status');
+      t.setAttribute('aria-live', 'polite');
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(t._timer);
+    t._timer = setTimeout(function () { t.classList.remove('show'); }, 2200);
+  }
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+    return ok;
+  }
+
+  function copyEmail(e) {
+    e.preventDefault();
+    var done = function () { showToast('Email copied: ' + EMAIL); };
+    var failed = function () { showToast('Email: ' + EMAIL); };
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(EMAIL).then(done, function () {
+        fallbackCopy(EMAIL) ? done() : failed();
+      });
+    } else {
+      fallbackCopy(EMAIL) ? done() : failed();
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('.navbar a[href^="mailto:"]');
+    for (var i = 0; i < links.length; i++) {
+      links[i].setAttribute('title', 'Copy email address (' + EMAIL + ')');
+      links[i].setAttribute('aria-label', 'Copy email address');
+      links[i].addEventListener('click', copyEmail);
+    }
+  });
+})();
+</script>
