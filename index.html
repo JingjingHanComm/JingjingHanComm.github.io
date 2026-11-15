@@ -260,7 +260,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:&lt;jingjinghan@fudan.edu.cn&gt;">
+  <a href="mailto:hanjing@alumni.iu.edu">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -279,28 +279,146 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="images/me2.jpg" /></p>
-<p>Hello,my name is Jingjing Han. I am an Associate Professor of
+<p><img src="images/me2.jpg" class="profile" /></p>
+<p>Hello, my name is Jingjing Han. I am an Associate Professor of
 Communication at <a href="https://xwxy.fudan.edu.cn/NewsEn/">the School
-of Journalism at Fudan University</a>.</p>
-<p>My research focuses on dynamic changes of cognitive and emotional
-processing during human-human and human-machine/media
-communication，using the complex dynamic systems framework as the
-primary approach. My work has been published in <em>Journal of
-Communication</em>, <em>Communication Research</em>, <em>Media
-Psychology</em>, <em>Communication Monographs</em>, and <em>Topics in
-Cognitive Science</em>, and reported by media outlets such as <em>The
-Wall Street Journal</em>.</p>
-<p>I currently serve as the Vice Chair Elect of <a
-href="https://infosysica.org/">the Information Systems Division of
-ICA</a>, and Associate Editor of <a
+of Journalism, Fudan University</a>, and an affiliated researcher at the
+Shanghai Key Laboratory of Data Science and the Institute for Global
+Communications and Integrated Media at Fudan University.</p>
+<p>My research focuses on the dynamics of cognitive and emotional
+processing during human-human and human-machine/media communication,
+using the complex dynamic systems framework as the primary approach. My
+work has been published in <em>Journal of Communication</em>,
+<em>Communication Research</em>, <em>Communication Monographs</em>,
+<em>Media Psychology</em>, <em>Journal of Advertising</em>,
+<em>Communication Methods and Measures</em>, and <em>Topics in Cognitive
+Science</em>, and reported by media outlets such as <em>The Wall Street
+Journal</em>.</p>
+<p>I currently serve as Associate Editor of <a
 href="https://onlinelibrary.wiley.com/journal/15516709/"><em>Cognitive
-Science</em></a>.</p>
-<p>I obtained Ph.D. in Media Arts and Sciences at Indiana University
-Bloomington in United States. Before returning to China, I was a
-Lecturer in the Department of Communication at Santa Clara
-University.</p>
+Science</em></a>, on the Editorial Board of <em>Journal of
+Communication</em>, and as Vice Chair (2025–2027) and incoming Chair
+(2027–2029) of <a href="https://infosysica.org/">the Information Systems
+Division of ICA</a>.</p>
+<p>I obtained my Ph.D. in Media Arts and Sciences, with a minor in
+Cognitive Science, from Indiana University Bloomington. Before returning
+to China, I was a Lecturer in the Department of Communication at Santa
+Clara University.</p>
+<div class="book">
+<div class="book-side">
+<img class="book-cover-img" src="images/SharedBrain_cover_temp.jpg" alt="Temporary cover of Shared Brain (共脑): How Media Synchronize Our Brains">
+<p class="book-cover-note">
+Temporary cover designed by the author. The official cover is coming
+soon.
+</p>
+</div>
+<div class="book-info">
+<p class="book-label">
+New book · Forthcoming
+</p>
+<p class="book-title">
+Shared Brain: How Media Synchronize Our Brains
+</p>
+<p class="book-title-zh">
+共脑：媒介如何让我们的大脑同步
+</p>
+<p class="book-pub">
+Fudan University Press · In press · <span class="book-lang">Written in
+Chinese</span>
+</p>
+<p>
+Synchrony is a universal and fascinating phenomenon in nature. From
+fireflies flashing simultaneously, crickets chirping together, and
+flocks of birds flying in coordinated patterns, to pacemaker cells in
+the heart oscillating rhythmically and neurons firing together,
+synchrony is everywhere. Human society, too, is filled with synchronized
+behavior at multiple levels: people dancing together to music, audiences
+applauding in unison at the end of a performance, and conversational
+partners unconsciously adopting similar body postures. These seemingly
+unrelated phenomena all illustrate a fundamental principle of nature:
+the beautiful order that emerges from interactions among individuals in
+complex systems.
+</p>
+<p>
+Media technologies, too, have the power to synchronize our emotions and
+cognition. How can a live television broadcast make viewers separated by
+vast distances share the same emotions, as if breathing and feeling as
+one? Why do strangers sitting side by side in a movie theater, without
+talking to one another, laugh and cry at the very same moments? How can
+a news report lead the public to develop similar understandings of the
+same social event, yet at other times provoke sharply opposing views?
+And why can a short video on social media so quickly resonate with
+audiences and spark public discussion? These questions seem so
+self-evident that we rarely stop to reflect on them. Yet they lie at the
+very heart of what this book seeks to investigate.
+</p>
+<p>
+By focusing on interpersonal physiological synchrony, this book explores
+how media synchronize our brains and physiological responses. By
+uncovering the neural and physiological mechanisms through which media
+give rise to synchrony among individuals, it may offer a new perspective
+on understanding how media foster collective resonance and contribute to
+the formation of social consensus.
+</p>
+</div>
+</div>
 
+<script>
+(function () {
+  var EMAIL = 'hanjing@alumni.iu.edu';
+
+  function showToast(msg) {
+    var t = document.querySelector('.copy-toast');
+    if (!t) {
+      t = document.createElement('div');
+      t.className = 'copy-toast';
+      t.setAttribute('role', 'status');
+      t.setAttribute('aria-live', 'polite');
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(t._timer);
+    t._timer = setTimeout(function () { t.classList.remove('show'); }, 2200);
+  }
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+    return ok;
+  }
+
+  function copyEmail(e) {
+    e.preventDefault();
+    var done = function () { showToast('Email copied: ' + EMAIL); };
+    var failed = function () { showToast('Email: ' + EMAIL); };
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(EMAIL).then(done, function () {
+        fallbackCopy(EMAIL) ? done() : failed();
+      });
+    } else {
+      fallbackCopy(EMAIL) ? done() : failed();
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('.navbar a[href^="mailto:"]');
+    for (var i = 0; i < links.length; i++) {
+      links[i].setAttribute('title', 'Copy email address (' + EMAIL + ')');
+      links[i].setAttribute('aria-label', 'Copy email address');
+      links[i].addEventListener('click', copyEmail);
+    }
+  });
+})();
+</script>
 
 
 

@@ -13,9 +13,11 @@ navbar:
       href: teaching.html
   right:
     - icon: fa-envelope fa-lg
-      href: mailto:<jingjinghan@fudan.edu.cn>
+      href: mailto:hanjing@alumni.iu.edu
 
 output:
   html_document:
     theme: simplex
     css: style.css
+    includes:
+      after_body: copy-email.html

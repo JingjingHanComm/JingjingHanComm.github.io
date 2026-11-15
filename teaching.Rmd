@@ -4,51 +4,44 @@ output:
   html_document:
     df_print: paged
 ---
-&nbsp;
-&nbsp;
 
+### Fudan University
 
-
-**Fudan University**
-
-
-- Human-Machine Communication (Master’s level, Taught in English)
-
-  *For Fudan-LSE(London School of Economics and Political Science) and Fudan-Sciences Po Paris (Paris Institute of Political Studies) dual degree students*  
-   
-- Communication and Cognitive Neuroscience (Doctoral seminar)
+- AI-mediated Communication (Master's level, taught in English)<br>
+  *For graduate students from the London School of Economics and Political Science (LSE) and Sciences Po Paris*<br>
+  <span class="award">Awarded as University-level Merit Course, Fall 2025</span>
 - Experimental Research (Doctoral seminar)
 - Communication and Cognition (Undergraduate)
-- Research Methods in Communication Research (Undergraduate)
+- Research Methods in Communication Research (Undergraduate)<br>
+  <span class="award">Awarded as University-level Merit Course, Fall 2025</span>
 - Frontier Topics in Communication Research (Undergraduate)
 
-**Santa Clara University**
+### Santa Clara University
 
-
--	Communication & Technology (Undergraduate)
+- Communication & Technology (Undergraduate)
 - Quantitative Research Methods (Undergraduate)
--	Media in a Global World (Undergraduate)
+- Media in a Global World (Undergraduate)
 
-**Indiana University**
+### Indiana University
 
+#### Graduate
 
-*Graduate*
+- Time Series Analysis (Online course designer)<br>
+  *Data Science Program, School of Informatics, Computing, and Engineering*
 
-- Time Series Analysis (Online course designer)
-    
-    *Data Science Program, School of Informatics, Computing, and Engineering*
-
-*Undergraduate*
+#### Undergraduate
 
 - Race, Prejudice, and the Media (Instructor of Record)
--	Media (Discussion Leader)
+- Media (Discussion Leader)
 - Electronic Media Advertising (Associate Instructor & Guest Lecturer)
 - Promotion and Marketing (Associate Instructor & Guest Lecturer)
 - Introduction to Media Industries and Management (Associate Instructor)
 - Introduction to Media and Society (Associate Instructor)
 - Introduction to Sports Media (Associate Instructor)
 - Telecommunications Processes and Effects (Associate Instructor)
--	Audience Analysis (Associate Instructor)
+- Audience Analysis (Associate Instructor)
 
+### Professional Training
 
-
+- ACUE Micro-Credential in Promoting Active Online Learning, Association of College and University Educators (2020)
+- Advanced Training Institute: Nonlinear Methods for Psychological Sciences, American Psychological Association (2017)

@@ -1,7 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap');
+
+:root {
+  --accent: #2e7d4f;      /* green, kept from the original section titles */
+  --accent-soft: #eaf4ee;
+  --text: #222;
+  --muted: #666;
+  --rule: #e3e3e3;
+}
+
+/* ---------- Base typography ---------- */
+body {
+  font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text);
+  background: #fff;
+}
+
+.main-container {
+  max-width: 960px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+p { margin: 0 0 1em; }
+
+a { color: var(--accent); }
+a:hover, a:focus { color: #1d5535; }
+
+h1.title {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 10px 0 28px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--accent);
+}
+
+h3 {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--accent);
+  margin: 44px 0 16px;
+  clear: both;
+}
+
+h4 {
+  font-size: 19px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--muted);
+  margin: 20px 0 8px;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  font-size: 17px;
+}
+.navbar-brand {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* ---------- Images ---------- */
 img {
-  width: 200px;
+  width: 220px;
   display: block;
-  margin: 0 auto;
   float: left;
-  padding: 20px;
+  padding: 0;
+  margin: 6px 28px 16px 0;
+  border-radius: 6px;
+}
+
+img.profile {
+  width: 240px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------- Small helpers ---------- */
+.updated {
+  display: inline-block;
+  font-size: 14px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.note {
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.award {
+  font-size: 15px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.contact {
+  clear: both;
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+  font-size: 16px;
+  color: var(--muted);
+}
+.contact .fa { width: 20px; color: var(--accent); }
+
+/* ---------- Book highlight (About Me) ---------- */
+.book {
+  clear: both;
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  margin: 36px 0 12px;
+  padding: 28px;
+  background: var(--accent-soft);
+  border-radius: 8px;
+}
+.book-side { flex: 0 0 230px; }
+img.book-cover-img {
+  float: none;
+  width: 100%;
+  margin: 0;
+  border-radius: 3px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+}
+.book-cover-note {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  font-style: italic;
+  color: var(--muted);
+}
+.book-info { flex: 1; min-width: 0; }
+.book-info p { margin-bottom: 0.8em; font-size: 16.5px; }
+.book-title-zh {
+  font-size: 19px !important;
+  font-weight: 600;
+  margin-top: -0.4em;
+}
+.book-lang {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  padding: 1px 9px;
+  border-radius: 10px;
+  vertical-align: 1px;
+}
+.book-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.book-title {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+}
+.book-info .book-pub { color: var(--muted); font-size: 16px; margin-bottom: 1.2em; }
+
+/* ---------- Copy-email toast ---------- */
+.copy-toast {
+  position: fixed;
+  top: 64px;
+  right: 16px;
+  z-index: 2000;
+  font-size: 15px;
+  color: #fff;
+  background: #222;
+  padding: 8px 14px;
+  border-radius: 6px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+}
+.copy-toast.show { opacity: 1; transform: none; }
+
+.keywords { margin: 18px 0 8px; }
+.keywords span {
+  display: inline-block;
+  font-size: 15px;
+  padding: 3px 12px;
+  margin: 0 8px 8px 0;
+  border: 1px solid var(--accent);
+  border-radius: 14px;
+  color: var(--accent);
+}
+
+/* ---------- Publication lists (hanging indent) ---------- */
+.pubs p,
+.relevant p {
+  padding-left: 2em;
+  text-indent: -2em;
+  margin-bottom: 0.8em;
+}
+
+.relevant {
+  clear: both;
+  font-size: 16px;
+  background: #f7f9f8;
+  border-left: 3px solid var(--accent);
+  padding: 14px 20px 6px;
+  margin: 24px 0 28px;
+}
+.relevant p:first-child {
+  padding-left: 0;
+  text-indent: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+sup { font-size: 70%; }
+
+/* ---------- Lists (Teaching page) ---------- */
+ul { padding-left: 1.3em; }
+li { margin-bottom: 6px; }
+
+/* ---------- Phone width ---------- */
+@media (max-width: 600px) {
+  body { font-size: 17px; }
+  .book { flex-direction: column; padding: 20px; }
+  .book-side { flex-basis: auto; width: 200px; max-width: 70%; }
+  img.book-cover-img { width: 100%; max-width: none; margin: 0; }
+  h1.title { font-size: 32px; }
+  img, img.profile {
+    float: none;
+    width: 70%;
+    max-width: 260px;
+    margin: 0 auto 20px;
+  }
 }
