@@ -5,11 +5,11 @@ title: "About Me"
 
 ![](images/me2.jpg){.profile}
 
-Hello, my name is Jingjing Han. I am an Associate Professor of Communication at [the School of Journalism, Fudan University](https://xwxy.fudan.edu.cn/NewsEn/), and an affiliated researcher at the Shanghai Key Laboratory of Data Science and the Institute for Global Communications and Integrated Media at Fudan University.
+Hello, my name is Jingjing Han. I am an Associate Professor of Communication at [the School of Journalism, Fudan University](https://xwxy.fudan.edu.cn/NewsEn/).
 
 My research focuses on the dynamics of cognitive and emotional processing during human-human and human-machine/media communication, using the complex dynamic systems framework as the primary approach. My work has been published in *Journal of Communication*, *Communication Research*, *Communication Monographs*, *Media Psychology*, *Journal of Advertising*, *Communication Methods and Measures*, and *Topics in Cognitive Science*, and reported by media outlets such as *The Wall Street Journal*.
 
-I currently serve as Associate Editor of [*Cognitive Science*](https://onlinelibrary.wiley.com/journal/15516709/), on the Editorial Board of *Journal of Communication*, and as Vice Chair (2025–2027) and incoming Chair (2027–2029) of [the Information Systems Division of ICA](https://infosysica.org/).
+I currently serve as Associate Editor of [*Cognitive Science*](https://onlinelibrary.wiley.com/journal/15516709/), and as Vice Chair of [the Information Systems Division of ICA](https://infosysica.org/).
 
 I obtained my Ph.D. in Media Arts and Sciences, with a minor in Cognitive Science, from Indiana University Bloomington. Before returning to China, I was a Lecturer in the Department of Communication at Santa Clara University.
 
