@@ -19,7 +19,7 @@ I obtained my Ph.D. in Media Arts and Sciences, with a minor in Cognitive Scienc
 <p class="book-cover-note">Temporary cover designed by the author. The official cover is coming soon.</p>
 </div>
 <div class="book-info">
-<p class="book-label">New monograph · Forthcoming</p>
+<p class="book-label">New book · Forthcoming</p>
 <p class="book-title">Shared Brain: How Media Synchronize Our Brains</p>
 <p class="book-title-zh">共脑：媒介如何让我们的大脑同步</p>
 <p class="book-author">By <strong>Jingjing Han</strong> · 韩晶晶 著</p>
