@@ -144,6 +144,10 @@ img.book-cover-img {
   font-weight: 600;
   margin-top: -0.4em;
 }
+.book-info .book-author {
+  font-size: 17px;
+  margin: -0.2em 0 0.4em;
+}
 .book-lang {
   display: inline-block;
   font-size: 13px;
