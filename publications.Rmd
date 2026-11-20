@@ -22,7 +22,7 @@ output:
 ### Peer-Reviewed Journal Articles
 
 ::: {.pubs}
-**Han, J.**, & Ni, Y. (in press). Cognitive and emotional processing involved in video co-viewing: A naturalistic comparison with solo viewers. *Communication Research*. [PDF](publications/HanNi_CR_Coviewing.pdf)
+**Han, J.**, & Ni, Y. (2026). Cognitive and emotional processing involved in video co-viewing: A naturalistic comparison with solo viewers. *Communication Research*. Online first publication. [PDF](publications/HanNi_CR_Coviewing.pdf)
 
 <sup>s</sup>Miao, G. Q., Weiss, M., Ni, Y., & **Han, J.** (2026). DIMS: A no-code dashboard linking multimodal dynamic signals to communication practices. *Communication Methods and Measures*. Online first publication. [PDF](publications/Miao_etal_2026_DIMS_CMM.pdf)
 
