@@ -30,7 +30,7 @@ Together with my doctoral advisor Dr. Annie Lang, my conceptual work, published 
 
 Bailey, R., **Han, J.**, & Read, G. (2025). Dynamic systems and media psychology. In R. Bailey & G. L. Read (Eds.), *De Gruyter handbook of media psychology*. De Gruyter.
 
-<sup>s</sup>Miao, G. Q., Weiss, M., Ni, Y., & **Han, J.** (2026). DIMS: A no-code dashboard linking multimodal dynamic signals to communication practices. *Communication Methods and Measures*. Online first publication.
+<sup>s</sup>Miao, G. Q., Weiss, M., Ni, Y., & **Han, J.** (2026). DIMS: A no-code dashboard linking multimodal dynamic signals to communication practices. *Communication Methods and Measures*. Online first publication. [PDF](publications/Miao_etal_2026_DIMS_CMM.pdf)
 :::
 
 If you're interested in 'dynamics' or in the limitations of averaging data, I highly recommend you to read this book: [The End of Average](https://www.amazon.com/End-Average-Succeed-Values-Sameness/dp/0062358367)
@@ -72,9 +72,9 @@ I have also applied the Limited Capacity Model of Motivated Mediated Message Pro
 ::: {.relevant}
 **Relevant publications**
 
-**Han, J.**, & Ni, Y. (in press). Cognitive and emotional processing involved in video co-viewing: A naturalistic comparison with solo viewers. *Communication Research*.
+**Han, J.**, & Ni, Y. (in press). Cognitive and emotional processing involved in video co-viewing: A naturalistic comparison with solo viewers. *Communication Research*. [PDF](publications/HanNi_CR_Coviewing.pdf)
 
-**Han, J.**, Ni, Y., Amon, M. J., Necaise, A., <sup>s</sup>Han, M., & Lee, M. (2025). Multimodal physiological responses predict advertisement effectiveness. *Journal of Advertising*, 54(5), 693–712.
+**Han, J.**, Ni, Y., Amon, M. J., Necaise, A., <sup>s</sup>Han, M., & Lee, M. (2025). Multimodal physiological responses predict advertisement effectiveness. *Journal of Advertising*, 54(5), 693–712. [PDF](publications/Han_etal_2025_JA.pdf)
 
 \*Cores-Sarria, L., \***Han, J.**, Myrick, J., & Potter, R. (2023). The effects of "media tech neck": The impact of spinal flexion on cognitive and emotional processing of videos. *Communication Research*, 50(5), 584–609. [PDF](publications/CR2023.pdf)<br>
 <span class="note">\* authors made equal contribution</span>
